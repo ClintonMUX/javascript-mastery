@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      console.log("heloo".length);
+      console.log("helo".toUpperCase());
+
+      const object1 = {
+        mesage: "hello",
+      };
+
+      const object2 = Object;
+
+      object3 = {
+        message: "hello",
+      };
+
+      console.log(object1 === object2);
+
+      object4 = {
+        message: "hello",
+        price: 800,
+      };
+
+      //const message = object4.message;
+      or;
+
+      const { message, price } = object4;
+
+      console.log(message);
+      console.log(price);
+
+      /* const object5 = {
+        message: message
+      }; */
+
+      const object5 = {
+        message,
+
+        method: function function1() {
+          console.log("method");
+        },
+      };
+
+      console.log(object5);
+
+      //we are actually only comparing the references to objects
+
+      /*product = {
+        name: "Shirts",
+        deliveryDate: "2015-05-06",
+      };
+      console.log(product);
+      console.log(JSON.stringify(product));
+      console.log(JSON.parse(JSON.stringify(product)));*/
+    </script>
+  </body>
+</html>
