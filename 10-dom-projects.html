@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Projects</title>
+
+    <link rel="stylesheet" href="styles/10-dom-projects.css" />
+  </head>
+  <body>
+    <p>Youtube Subcribe Bottun</p>
+    <button
+      class="js-subscribebutton"
+      onclick="
+         Subscribe();
+    "
+    >
+      Subscribe
+    </button>
+
+    <p>Amazon Shipping Calculator</p>
+    <p>Orders under $40=+10 shipping.</p>
+    <p>Orders over $40= Free shipping.</p>
+
+    <input
+      class="js-order-amount"
+      type="text"
+      placeholder="cost-of-order"
+      onkeydown="
+       handleCostKeyDown(event);
+    "
+    />
+    <button
+      class="calculate-button"
+      onclick="
+       calculateCost();
+    "
+    >
+      Calculate
+    </button>
+
+    <p class="js-total-fee"></p>
+
+    <script src="scripts/10-dom-projects.js
+    "></script>
+  </body>
+</html>

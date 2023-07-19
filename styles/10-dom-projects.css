@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.js-subscribebutton {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.is-subscribed {
+  background-color: rgb(240, 240, 240);
+  color: black;
+}
+
+.js-order-amount {
+  font-size: 15px;
+  /* padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  */
+  padding: 10px;
+}
+
+.calculate-button {
+  background-color: green;
+  color: white;
+  padding: 12px 15px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
