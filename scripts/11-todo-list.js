@@ -38,22 +38,25 @@ renderTodoList();
 
 function addTodo() {
   const inputElement = document.querySelector('.js-name-input');
+  console.log(inputElement); // Check if the element is correctly selected
   const name = inputElement.value;
 
   const dateInputElement = document.querySelector('.js-duedate-input');
+  console.log(dateInputElement); // Check if the element is correctly selected
   const dueDate = dateInputElement.value;
-  
+
   todoList.push({
     name,
     dueDate
   });
 
- 
 
   inputElement.value = '';
-
   renderTodoList();
  
 }
+
+
+
 
 
