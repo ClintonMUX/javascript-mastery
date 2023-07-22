@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Functions</title>
+  </head>
+  <body>
+    <button class="js-btn">Click</button>
+    <script>
+      const buttonElement = document.querySelector(".js-btn");
+
+      buttonElement.addEventListener("click", () => {
+        console.log("click");
+      });
+
+      buttonElement.addEventListener("click", () => {
+        console.log("click2");
+      });
+      /**object1 = {
+        num: 2,
+        type: "Hello World",
+        fun: function print() {
+          console.log("hello");
+        },
+      }; 
+
+      object1.fun();
+      */
+
+      /*  setTimeout(function () {
+        console.log("hello, time out");
+        console.log("timeout, time out");
+      }, 3000);
+
+      // Asynchronous code ''
+
+      console.log("nextline");
+
+      setInterval(function () {
+        console.log("Interval, time out");
+      }, 3000);
+
+      console.log("next line 2");
+      */
+      /*
+      ["make dunner", "wash dishes", "watch youtube"].forEach(function (
+        value,
+        index
+      ) {
+        console.log(index);
+        console.log(value);
+      });
+
+      const oneParam = param => {
+        console.log(param + 1);
+
+      }
+
+      const oneLine = () => {
+
+      }*/
+    </script>
+  </body>
+</html>

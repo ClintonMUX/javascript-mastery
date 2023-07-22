@@ -37,16 +37,30 @@
 
         */
 
-      const todoList = [
+      /*  const todoList = [
         "make dinner",
         "call Flavile",
         "call Mom",
         "Post on Facebook",
       ];
+*/
 
+      /*
       for (let i = 0; i < todoList.length; i++) {
         console.log(todoList[i]);
-      }
+      } */
+
+      //Arrays are rerferences
+
+      const array1 = [1, 2, 3, 4, 5];
+      array2 = array1.slice();
+      array2.push(4);
+      console.log(array1);
+      console.log(array2);
+
+      //destructuring
+
+      const [firstValue, secondValue] = [1, 2, 3, 4, 5];
     </script>
   </body>
 </html>
